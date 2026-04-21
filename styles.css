@@ -1,0 +1,235 @@
+:root {
+  color-scheme: light;
+  --bg: #f4efe6;
+  --panel: rgba(255, 252, 247, 0.92);
+  --panel-strong: #fff9ef;
+  --text: #1f1c17;
+  --muted: #62594d;
+  --accent: #cc5a2e;
+  --accent-deep: #8c3716;
+  --accent-soft: #f1c8b7;
+  --line: rgba(62, 39, 23, 0.12);
+  --shadow: 0 18px 40px rgba(74, 41, 18, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255, 235, 204, 0.9), transparent 28%),
+    radial-gradient(circle at top right, rgba(215, 109, 58, 0.16), transparent 24%),
+    linear-gradient(160deg, #f8f3eb 0%, #f2e4cf 100%);
+}
+
+.page-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 36px 0 56px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
+h1,
+h2,
+strong {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 0.98;
+}
+
+.subtitle {
+  max-width: 720px;
+  margin: 14px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.language-switch {
+  border: 1px solid rgba(133, 60, 26, 0.2);
+  background: rgba(255, 248, 238, 0.76);
+  color: var(--accent-deep);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 420px) 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.form-card,
+.results-card,
+.formula-card {
+  padding: 24px;
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.field-wide {
+  grid-column: span 2;
+}
+
+input {
+  width: 100%;
+  border: 1px solid rgba(90, 57, 38, 0.15);
+  border-radius: 16px;
+  background: var(--panel-strong);
+  color: var(--text);
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 2px solid rgba(204, 90, 46, 0.22);
+  border-color: rgba(204, 90, 46, 0.45);
+}
+
+.results-header p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.result-box {
+  padding: 18px;
+  border-radius: 20px;
+  background: rgba(255, 249, 239, 0.8);
+  border: 1px solid rgba(90, 57, 38, 0.12);
+}
+
+.result-box p,
+.insight span {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.result-box strong {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.accent {
+  background: linear-gradient(135deg, #cf5f34 0%, #a9441d 100%);
+  color: #fff6ef;
+}
+
+.accent p,
+.accent strong {
+  color: inherit;
+}
+
+.accent-soft {
+  background: linear-gradient(135deg, rgba(241, 200, 183, 0.72), rgba(255, 241, 233, 0.96));
+}
+
+.insight-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.insight {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(250, 243, 233, 0.9);
+  border: 1px solid rgba(90, 57, 38, 0.12);
+}
+
+.insight strong {
+  font-size: 1.3rem;
+}
+
+.formula-card {
+  margin-top: 20px;
+}
+
+.formula-card ol {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+@media (max-width: 920px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .page-shell {
+    width: min(100% - 20px, 1120px);
+    padding-top: 20px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .field-grid,
+  .result-grid,
+  .insight-list {
+    grid-template-columns: 1fr;
+  }
+
+  .field-wide {
+    grid-column: span 1;
+  }
+}
