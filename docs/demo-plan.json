@@ -1,0 +1,56 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1400
+  },
+  "initialWaitMs": 800,
+  "steps": [
+    {
+      "fill": {
+        "selector": "#monthly-income",
+        "value": "42000"
+      },
+      "waitMs": 250,
+      "capture": true
+    },
+    {
+      "fill": {
+        "selector": "#monthly-expenses",
+        "value": "5500"
+      },
+      "waitMs": 250,
+      "capture": true
+    },
+    {
+      "fill": {
+        "selector": "#billable-hours",
+        "value": "20"
+      },
+      "waitMs": 250,
+      "capture": true
+    },
+    {
+      "fill": {
+        "selector": "#project-hours",
+        "value": "52"
+      },
+      "waitMs": 250,
+      "capture": true
+    },
+    {
+      "fill": {
+        "selector": "#project-risk",
+        "value": "22"
+      },
+      "waitMs": 350,
+      "capture": true
+    },
+    {
+      "click": {
+        "selector": "#language-switch"
+      },
+      "waitMs": 600,
+      "capture": true
+    }
+  ]
+}

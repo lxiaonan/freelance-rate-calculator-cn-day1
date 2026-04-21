@@ -6,6 +6,18 @@
 
 这是一个面向自由职业者、顾问、独立开发者和兼职从业者的实用报价网站。你只需要输入目标月收入、固定成本、可计费工时和风险缓冲，它就能快速给出更稳妥的时薪、日薪和项目报价建议。
 
+### 创新点
+
+- 把目标收入、固定成本、非计费时间、税费缓冲和项目风险整合进同一套报价逻辑，而不是只做简单的时薪换算
+- 同时输出时薪、日薪和项目总价，适合从“接小时单”到“按项目报价”的不同场景
+- 内置中英双语切换，方便国内外客户沟通时快速对照
+
+### 预览
+
+![项目截图](./docs/screenshot.png)
+
+![演示 GIF](./docs/demo.gif)
+
 ### 核心功能
 
 - 根据目标月收入和固定成本，换算合理的月营收目标
@@ -32,6 +44,18 @@
 ### What It Is
 
 This is a practical pricing website for freelancers, consultants, indie makers, and part-time professionals. Enter your income goal, fixed costs, billable time, and risk buffer to get safer hourly, daily, and project rate suggestions.
+
+### Innovation
+
+- Combines income targets, fixed costs, non-billable time, tax buffers, and project risk in one pricing workflow instead of acting like a basic hourly converter
+- Produces hourly, day-rate, and project-price suggestions at the same time for multiple freelance pricing styles
+- Includes a bilingual Chinese and English UI for easier client-facing communication
+
+### Preview
+
+![Project screenshot](./docs/screenshot.png)
+
+![Demo GIF](./docs/demo.gif)
 
 ### Core Features
 

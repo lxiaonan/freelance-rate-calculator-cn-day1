@@ -11,6 +11,9 @@
 - `styles.css`: visual system, layout, colors, and responsive behavior
 - `app.js`: pricing calculations and language toggle logic
 - `README.md`: bilingual project documentation for readers
+- `docs/screenshot.png`: preview image used in the repository README
+- `docs/demo.gif`: short interaction demo used in the repository README
+- `docs/demo-plan.json`: repeatable Playwright demo steps for regenerating preview assets
 
 ## Guardrails
 
@@ -18,6 +21,8 @@
 - Preserve both Chinese and English documentation.
 - Maintain the language toggle unless there is a strong reason to replace it.
 - Do not add dependencies for simple logic that works in plain JavaScript.
+- Preserve the preview assets, or regenerate them if the UI changes materially.
+- Keep the pricing workflow centered on practical quoting, not generic financial dashboards.
 
 ## Future Improvements
 
