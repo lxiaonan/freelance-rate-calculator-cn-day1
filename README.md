@@ -8,9 +8,9 @@
 
 ### 创新点
 
-- 把目标收入、固定成本、非计费时间、税费缓冲和项目风险整合进同一套报价逻辑，而不是只做简单的时薪换算
-- 同时输出时薪、日薪和项目总价，适合从“接小时单”到“按项目报价”的不同场景
-- 内置中英双语切换，方便国内外客户沟通时快速对照
+- 不只做一次性换算，而是支持保存多套报价方案、按客户类型做对比
+- 自动把同一组输入扩展为轻量包、标准包、持续协作包，方便直接对客户报价
+- 内置中英双语客户摘要，可直接复制或导出成报价说明
 
 ### 预览
 
@@ -23,6 +23,9 @@
 - 根据目标月收入和固定成本，换算合理的月营收目标
 - 根据可计费工时、休假周数和非计费时间，估算真实出售工时
 - 自动生成建议时薪、日薪和项目报价
+- 保存多个报价方案并放在一个对比表里查看
+- 根据交付节奏和修订轮次生成三档项目包建议
+- 自动生成双语客户摘要，支持复制和导出
 - 内置中英双语界面切换
 - 纯静态网站，可直接托管到 GitHub Pages
 
@@ -47,9 +50,9 @@ This is a practical pricing website for freelancers, consultants, indie makers, 
 
 ### Innovation
 
-- Combines income targets, fixed costs, non-billable time, tax buffers, and project risk in one pricing workflow instead of acting like a basic hourly converter
-- Produces hourly, day-rate, and project-price suggestions at the same time for multiple freelance pricing styles
-- Includes a bilingual Chinese and English UI for easier client-facing communication
+- Goes beyond one-off calculation by saving multiple pricing scenarios for different client types
+- Expands the same baseline into lean, core, and retainer packages so the output is negotiation-ready
+- Includes a bilingual client brief you can copy or export directly
 
 ### Preview
 
@@ -62,6 +65,9 @@ This is a practical pricing website for freelancers, consultants, indie makers, 
 - Turns your target income and fixed costs into a realistic monthly revenue target
 - Estimates real sellable hours from billable time, vacation weeks, and overhead
 - Generates suggested hourly, daily, and project quotes instantly
+- Saves multiple pricing scenarios and compares them side by side
+- Recommends three package tiers based on the same pricing baseline
+- Generates a bilingual client-facing summary for copy or export
 - Includes a Chinese and English interface toggle
 - Fully static and easy to host on GitHub Pages
 
