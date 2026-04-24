@@ -18,6 +18,10 @@
 
 ![演示 GIF](./docs/demo.gif)
 
+### 小白使用文档
+
+- [详细小白使用文档（中英双语）](./docs/BEGINNER-GUIDE.md)
+
 ### 核心功能
 
 - 根据目标月收入和固定成本，换算合理的月营收目标
@@ -59,6 +63,10 @@ This is a practical pricing website for freelancers, consultants, indie makers, 
 ![Project screenshot](./docs/screenshot.png)
 
 ![Demo GIF](./docs/demo.gif)
+
+### Beginner Guide
+
+- [Detailed beginner guide in Chinese and English](./docs/BEGINNER-GUIDE.md)
 
 ### Core Features
 
